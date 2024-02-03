@@ -47,6 +47,15 @@ body {
     padding: 0 30px 30px;
 }
 
+.card-header.grid {
+    grid-gap: 0
+}
+
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+
 .btn {
     display: block;
     color: rgb(44, 33, 4);
@@ -168,7 +177,7 @@ main p {
 
 footer {
     color: white;
-        background-image: linear-gradient(rgba(95, 94, 94, 0.6), rgba(80, 75, 67, 0.9)), url("../img/city.jpg");
+    background-image: linear-gradient(rgba(95, 94, 94, 0.6), rgba(80, 75, 67, 0.9)), url("../img/city.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -225,5 +234,12 @@ footer a {
 
     section {
         padding: 30px;
+    }
+
+    .card-header img {
+        display: none;
+    }
+    .embed{
+        aspect-ratio: 16/9;
     }
 }
